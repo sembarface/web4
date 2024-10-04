@@ -14,24 +14,24 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body class="">
+<body class="d-flex flex-column align-items-center">
     <header class="container-fluid">
         <div class="row row-cols-1 row-cols-md-2 justify-content-center justify-content-md-between">
             <div class="header-case m-0 ms-md-1 col-md-auto d-flex align-items-center justify-content-center m-3">
-                <img class="logo mx-3" src="kotyara.jpg" alt="Котяра">
+                <img class="logo mx-3 m-mr-2" src="kotyara.jpg" alt="Котяра">
                 <div class="nazvanie p-3">
                     <h3>САМЫЙ КРУТОЙ В МИРЕ САЙТ</h3>
                 </div>
             </div>
-            <nav class="menu mt-1 mt-md-0 p-2 col-auto d-flex flex-column flex-md-row align-items-center">
+            <nav class="menu mt-1 mt-md-0 p-2 col-auto d-flex flex-column flex-md-row align-items-center ">
                 <div class="move mx-2"><a href ="#hiper">Список гиперссылок </a></div>
                 <div class="move mx-2"><a href ="#tabl">Таблица </a></div>
                 <div class="move mx-2"><a href ="#forma">Форма</a></div>
             </nav>
         </div>
     </header>
-    <div class="content">
-        <div class="hiper m-2 p-2" id="hiper">
+    <div class="content d-flex flex-column">
+        <div class="hiper m-2 p-2 m-md-3" id="hiper">
             <ul>
                 <li><a href="http://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">КубГУ</a></li>
                 <li><a href="https://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">КубГУ https</a></li>
@@ -75,7 +75,7 @@
                 <li><a href="ftp://username:password@ftp.sobaka.com/path/to/file">Ссылка на файл на сервере FTP с авторизацией</a></li>
             </ul>
         </div>
-        <div class="tabl m-2 p-2" id="tabl">
+        <div class="tabl m-2 p-2 m-md-3" id="tabl">
             <table>
                 <caption>Значения тригонометрических функций</caption>
                 <thead>
@@ -152,7 +152,7 @@
             </table>
         </div>
 
-        <div class="forma m-2 p-2" id="forma">
+        <div class="forma m-2 p-2 m-md-3" id="forma">
             <h1>Форма</h1>
             <form action="/" method="POST">
                 <label for="field-name-1">
