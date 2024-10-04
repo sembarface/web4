@@ -3,23 +3,6 @@ body {
     box-sizing: border-box;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body, div.conteiner-fluid {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    
-}
-div.content{
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 header {
     background-color: #ccc;
@@ -102,18 +85,8 @@ footer {
 
 @media (min-width: 768px) {
 
-    img.logo {
-        margin-right: 20px;
-    }
-
-    nav.menu {
-        flex-direction: row;
-        justify-content:flex-start;
-    }
-
     div.hiper, div.forma, div.tabl {
         max-width: 960px;
-        margin: 10px auto;
     }
 
     div.hiper {
@@ -123,5 +96,4 @@ footer {
     div.forma {
         order:1;
     }
-    
 }
